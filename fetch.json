@@ -1,0 +1,22 @@
+{
+  "comment": "This is for fetching mods so we don't have to keep them in git",
+  "items": [
+    {
+	  "destination": "loaders",
+	  "method": "http",
+	  "location": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8-11.14.1.1405/forge-1.8-11.14.1.1405-installer.jar"
+	},
+	{
+	  "destination": "loaders",
+	  "method": "http",
+	  "location": "http://jenkins.liteloader.com/job/LiteLoaderInstaller/lastSuccessfulBuild/artifact/ant/dist/liteloader-installer-1.8.0-00-SNAPSHOT.jar"
+	},
+	{
+		"comment": "This is actually a 1.7 mod, but it is just a test for curseforge".
+		"filename": "act.jar",
+		"destination": "src/mods/_SERVER",
+		"method": "http",
+		"location": "http://minecraft.curseforge.com/mc-mods/221584-admin-commands-toolbox/files/2212871/download"
+	}
+  ]
+}

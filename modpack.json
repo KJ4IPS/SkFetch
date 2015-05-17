@@ -1,0 +1,10 @@
+{
+  "name": "Test Modpack",
+  "title": "Test Modpack",
+  "gameVersion": "1.8",
+  "userFiles": {
+    "include": {
+      "options.txt"
+    }
+  }
+}
